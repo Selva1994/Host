@@ -1,4 +1,13 @@
-    
+.dropbtn {
+    background: linear-gradient( 
+343.11deg
+ , #63617d 0%, #b7b0c3 100%)!important;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
 .rwc-container {
     background: linear-gradient(180deg, rgba(60, 0, 158, 0.96) 0%, rgba(9, 0, 84, 0.93) 100%);
     width: 100%;
