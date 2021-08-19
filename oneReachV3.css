@@ -1,1 +1,92 @@
+.dropbtn {
+    background: linear-gradient( 
+343.11deg
+ , #63617d 0%, #b7b0c3 100%)!important;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.rwc-container {
+    background: linear-gradient(180deg, rgba(60, 0, 158, 0.96) 0%, rgba(9, 0, 84, 0.93) 100%);
+    width: 100%;
+    max-width: 100vw;
+    margin: 0 auto;
+    display: -webkit-box;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+    flex-direction: column;
+    height: calc(var(--vh-static, 1vh)*100);
+    overflow: hidden;
+    position: relative;
+}
+
+
+.message-wrapper__inner .bot-icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+    -ms-flex-item-align: end;
+    align-self: flex-start;
+    overflow: hidden;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.message-wrapper--left .message-bubble {
+    display: inline-block;
+    padding: 16px;
+    color: white;
+/*     background: linear-gradient(315deg,#544ad8,#804cd9); */
+    background: linear-gradient(151.83deg, #AC3FDE -141.79%, #4C2DA8 204.04%);
+    border-radius: 0px 8px 8px 8px;
+    -webkit-box-shadow: 0 2px 4px 0 var(--shadowColor);
+    box-shadow: 0 2px 4px 0 var(--shadowColor);
+    font-size: var(--fontSize);
+    line-height: 21px;
+    text-align: left;
+    max-width: 100%;
+}
+
+.message-wrapper--right .message-bubble--blue {
+    color: #080808;
+    background-color: #e2dfdf;
+    border-radius: 8px 0px 8px 8px;
+}
+
+.collapse-wrapper__wrapper .rwc-button--filled.rwc-button--primary {
+    background: linear-gradient(343.11deg, #63617d 0%, #b7b0c3 100%)!important;
+    color: #ffffff;
+    -webkit-transition: opacity .4s;
+    transition: opacity .4s;
+}
+
+.rwc-button--outlined.rwc-button--primary {
+    height: auto!important;
+    padding: 6px 10px!important;
+    color: white!important;
+    border-radius: 5px!important;
+    background: linear-gradient( 
+343.11deg
+ , #63617d 0%, #b7b0c3 100%)!important;
+    border-color: transparent!important;
+    box-shadow: 1px 1px 0px lightgrey!important;
+    position: relative!important;
+    top: 0px!important;
+    transition: all ease 0.3s!important;
+}
+
+.buttons-list button.rwc-button:not(:last-of-type), rwc-button--outlined.rwc-button--primary {
+    height: auto!important;
+    padding: 4px 10px!important;
+    color: white!important;
+    position: relative!important;
+    top: 0px!important;
+    transition: all ease 0.3s!important;
+}
+
 
