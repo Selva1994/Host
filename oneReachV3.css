@@ -53,7 +53,8 @@
 
 .message-wrapper--right .message-bubble--blue {
     color: #080808;
-    background-color: #e2dfdf;
+    background-color: #FFFFFF;
+    border: 1px #BFBFBF
     border-radius: 8px 0px 8px 8px;
 }
 
