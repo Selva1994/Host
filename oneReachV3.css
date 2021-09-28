@@ -1,3 +1,19 @@
+.select-option {
+    padding: 10px 16px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.rwc-dropdown__dropdown {
+    border-radius: 8px 8px 0 0;
+    margin-left: -5px;
+    margin-bottom: -1px;
+    border: none;
+    /* background-color: #422374; */
+    padding: 16px;
+    background: linear-gradient(
+151.83deg, #A245FF -141.79%, #4203FD 204.04%);
+}
 .dropbtn {
     background: linear-gradient(151.83deg, #A245FF -141.79%, #4203FD 204.04%)!important;
     color: white;
