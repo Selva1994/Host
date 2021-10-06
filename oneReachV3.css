@@ -1,9 +1,3 @@
-.rwc-calendar + .rwc-datepicker__footer {
-    text-align: center;
-}
-.rwc-datepicker__footer .collapse-wrapper__wrapper .rwc-button--filled.rwc-button--primary {
-    width: 89%;
-}
 .rwc-datepicker__input.rwc-button .rwc-button__content{
     width: 69%;
 }
