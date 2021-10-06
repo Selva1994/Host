@@ -1,3 +1,19 @@
+.rwc-datepicker__input.rwc-button .rwc-button__content{
+    width: 69%;
+}
+.rwc-datepicker .rwc-button--outlined.rwc-button--primary {
+    height: auto!important;
+    padding: 6px 10px!important;
+    color: white!important;
+    border-radius: 12px!important;
+    background: none !important;
+    width: 100%;
+    border-color: transparent!important;
+    box-shadow: 1px 1px 0px lightgrey!important;
+    position: relative!important;
+    top: 0px!important;
+    transition: all ease 0.3s!important;
+}
 .rwc-dropdown.open .rwc-dropdown__mobBtn {
     display: block;
     position: absolute;
