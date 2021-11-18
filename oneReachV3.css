@@ -35,6 +35,10 @@
   text-decoration: none;
   display: block;
 }
+.foo{
+  max-height:200px;
+  overflow:auto;
+}
 
 .show {display: block;}
 
@@ -87,7 +91,7 @@
     background: linear-gradient(151.83deg, #A245FF -141.79%, #4203FD 204.04%)!important;
     color: white;
     height: 30px;
-    width:100px
+    width:100px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -138,7 +142,7 @@
 .message-wrapper--right .message-bubble--blue {
     color: #080808;
     background-color: #FFFFFF;
-    border: 1px #BFBFBF
+    border: 1px #BFBFBF;
     border-radius: 8px 0px 8px 8px;
 }
 
